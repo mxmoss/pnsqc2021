@@ -45,6 +45,8 @@ https://guides.github.com/activities/hello-world/
 Exercises
 --------------
 #1) Fork the workshop Repo from my account on Github 
+https://github.com/mxmoss/pnsqc2021
+
 Explore the github account 
 
 
