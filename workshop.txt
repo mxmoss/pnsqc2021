@@ -46,3 +46,50 @@ Exercises
 --------------
 #1) Fork the workshop Repo from my account on Github 
 Explore the github account 
+
+
+#2) Clone the project locally
+a) Make a space for working on your project locally
+I'm using a directory called 'workshop' under the 'temp' directory on a windows system 
+open Terminal in macOS or Command Prompt or PowerShell in Windows.
+(Windows: [ctrl]+[Esc] | Cmd | [enter])  
+(MacOS: [Command]+[Space] | Terminal.app | [Enter])
+
+Just work in the current directory 
+
+//C:\Users\moss>mkdir \temp\workshop
+//C:\Users\moss>cd \temp\workshop
+
+b) clone it
+C:\temp\workshop>git clone https://github.com/comicsbin/pnsqc2021.git
+Cloning into 'pnsqc2021'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+
+c) verify 
+Now you can see your files are copied locally 
+
+C:\temp\workshop>dir pnsqc2021 
+ Directory of C:\temp\workshop
+08/06/2021  09:02 AM    <DIR>          .
+08/06/2021  09:02 AM    <DIR>          ..
+08/06/2021  09:02 AM    <DIR>          pnsqc2021
+               0 File(s)              0 bytes
+               3 Dir(s)  73,824,370,688 bytes free
+
+C:\temp\workshop>cd pnsqc2021
+
+C:\temp\workshop\pnsqc2021>
+
+//Should this be a slide?
+Let's talk about git command line 
+  git (no parameters) 
+  git help -g and git help -a  list more help 
+  git status 
+  git config 
+  
+
