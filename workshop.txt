@@ -94,82 +94,50 @@ c) Verify that the files are local
   git status 
   git config 
 
+//Set configuration if necessary. Do this only if user.email or user.name are empty
+//To check:
+  git config --global user.email
+  git config --global user.name
+//To set: 
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
-#3) Create a local file, commit changes and push to your repo 
 
-Part 1) Add a feature
-We don't want to disrupt production, so we're going to create a branch for working on this. 
+#3) Add a new feature to the project
+//Make a branch so we can work safely
 git checkout -b my-feat1
-Should respond with:
-Switched to a new branch 'my-feat1'
 
-//Also, we need to set configuration - email and username
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name
+//Create the file index.md 
+//Windows: 
+  notepad index.md 
+//Linux: 
+  vim index.md
+//Linux: nano index.md 
+//MacOS: 
+  vim index.md 
 
-//Now I'm free to do whatever I want in my branch. I can't affect production without commit back to the 'main' branch (production)
-
-a) Create the file index.md 
-Windows: notepad index.md 
-Linux: vim index.md
-Linux: nano index.md 
-MacOS: You can use vim, nano or TextEdit (GUI) 
-
- edit the file 
+//Add the following text:
+------
 # PNSQC 2021 Workshop
 - This is my first github pages feature
+------
+//Save and exit editor
 
-Save 
+//Verify that you have created the new file 
+git status
 
-c) Let's check your work 
-- You have a file 
-Run a git status:
-C:\temp\workshop\pnsqc2021>git status
-On branch moss-feat1
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-        index.md
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-Oops, this file isn't being tracked. 
-And we're on the main branch. 
-Let's fix this:
-git checkout -b myfirst-feat
+//Add the untracked file to the repo
 git add index.md 
-git status 
+//alternatively, add _all_untracked files 
+git add .
 
-Now you can run
-git status 
-
-//Commit it
+//Commit the changes to the local repo 
 git commit -m "my first commit"
-[moss-feat1 123d2c4] my first feature
- 1 file changed, 2 insertions(+)
- create mode 100644 index.md
- 
-//
-push to remote repository
-It will ask you for your credentials, since you're pushing to a remote repo on the hosting service 
-Side note: re passwords and tokens 
-https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens
 
-C:\temp\workshop\pnsqc2021>git push -u origin my-feat1
+//Push the changes to the remote repo
+git push -u origin my-feat1
+
+It will ask you for your credentials, since you're pushing to a remote repo on the hosting service 
 Fatal: AggregateException encountered.
 Username for 'https://github.com': comicsbin
 Password for 'https://comicsbin@github.com':
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 365 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-remote:
-remote: Create a pull request for 'moss-feat1' on GitHub by visiting:
-remote:      https://github.com/comicsbin/pnsqc2021/pull/new/moss-feat1
-remote:
-To https://github.com/comicsbin/pnsqc2021.git
- * [new branch]      moss-feat1 -> moss-feat1
-Branch moss-feat1 set up to track remote branch moss-feat1 from origin.
- 
