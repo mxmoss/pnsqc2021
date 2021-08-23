@@ -1,6 +1,7 @@
 # Prerequisites
 
 ## 1) Install the git client on your local computer.
+=======
 
 Go here:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
