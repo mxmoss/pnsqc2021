@@ -113,20 +113,18 @@ c) Verify that the files are local
 //Make a branch so we can work safely
 git checkout -b my-feat1
 
-//Create the file index.md 
+//Create the file learnings.txt
 //Windows: 
-  notepad index.md 
+  notepad learnings.txt
 //Linux: 
-  vim index.md
-//Linux: nano index.md 
+  vim learnings.txt
+//Linux: nano learnings.txt
 //MacOS: 
-  vim index.md 
+  vim learnings.txt
 
-//Add the following text:
-------
-# PNSQC 2021 Workshop
-- This is my first github pages feature
-------
+//Fill in your answers:
+//What did I expect from this workshop? 
+//What did I learn?
 //Save and exit editor
 
 //Verify that you have created the new file 
