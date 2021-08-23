@@ -2,12 +2,12 @@
 
 ## 1) Install the git client on your local computer.
 
-Go here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+Go here: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 
 Install the precompiled Git tools for your operating system
 
 ### a) For Windows 
-  https://git-scm.com/download/win
+  <https://git-scm.com/download/win>
   
 ### b) For Linux
 
@@ -19,7 +19,7 @@ Install the precompiled Git tools for your operating system
     $ git --version
 
   if that doesn't work 
-  https://git-scm.com/download/mac
+  <https://git-scm.com/download/mac>
 
 Choose all the defaults...
 
@@ -27,8 +27,7 @@ Except: Choose whatever editor is most comfortable for you
 
 ## 2) Sign up for a github account
 
-Follow this link:
-https://github.com/signup?source=login
+Sign up here on github: <https://github.com/signup?source=login>
 
 Use a real email address, so you can get the email confirmations & launch code
 
@@ -45,15 +44,15 @@ Suggested signup choices:
 - "Continue for free" 
 
 You can play with the hello world repo project if you want 
-https://guides.github.com/activities/hello-world/
+<https://guides.github.com/activities/hello-world/>
 
 
-Exercises
---------------
+# Exercises
+
 ## 1) Fork the workshop Repo from my account on Github 
 
 Go here:
-https://github.com/mxmoss/pnsqc2021
+<https://github.com/mxmoss/pnsqc2021>
 
 Click on the [Fork] button
 
@@ -81,7 +80,7 @@ where <yourgithub> is your github account name.
 
 eg: my account name is mxmoss.
 
-    git clone https://github.com/mxmoss/pnsqc2021.git  
+    git clone https://github.com/mxmoss/pnsqc2021.git 
 
 You should see something like:
 
