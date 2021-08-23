@@ -45,56 +45,53 @@ https://guides.github.com/activities/hello-world/
 Exercises
 --------------
 #1) Fork the workshop Repo from my account on Github 
+Go here:
 https://github.com/mxmoss/pnsqc2021
 
-Explore the github account 
+Click on the [Fork] button
 
+Explore the fork of the project in your repo 
 
 #2) Clone the project locally
-a) Make a space for working on your project locally
-I'm using a directory called 'workshop' under the 'temp' directory on a windows system 
-open Terminal in macOS or Command Prompt or PowerShell in Windows.
+a) Open a terminal to use the git command line
+
+To start a Command Prompt or PowerShell in Windows:
 (Windows: [ctrl]+[Esc] | Cmd | [enter])  
+
+To open a terminal in macOS:
 (MacOS: [Command]+[Space] | Terminal.app | [Enter])
 
-Just work in the current directory 
+From the command prompt, type 'git' and press return to verify that git is installed
 
-//C:\Users\moss>mkdir \temp\workshop
-//C:\Users\moss>cd \temp\workshop
+b) Clone the project onto your computer
+git clone https://github.com/<yourgithub>/pnsqc2021.git  
+where <yourgithub> is your github account name.
 
-b) clone it
-C:\temp\workshop>git clone https://github.com/comicsbin/pnsqc2021.git
-Cloning into 'pnsqc2021'...
-remote: Enumerating objects: 4, done.
-remote: Counting objects: 100% (4/4), done.
-remote: Compressing objects: 100% (3/3), done.
-remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (4/4), done.
-Checking connectivity... done.
+eg: my account name is mxmoss.
+so: git clone https://github.com/mxmoss/pnsqc2021.git  
 
-c) verify 
-Now you can see your files are copied locally 
+You should see something like:
+  Cloning into 'pnsqc2021'...
+  remote: Enumerating objects: 4, done.
+  remote: Counting objects: 100% (4/4), done.
+  remote: Compressing objects: 100% (3/3), done.
+  remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+  Unpacking objects: 100% (4/4), done.
+  Checking connectivity... done.
 
-C:\temp\workshop>dir pnsqc2021 
- Directory of C:\temp\workshop
-08/06/2021  09:02 AM    <DIR>          .
-08/06/2021  09:02 AM    <DIR>          ..
-08/06/2021  09:02 AM    <DIR>          pnsqc2021
-               0 File(s)              0 bytes
-               3 Dir(s)  73,824,370,688 bytes free
+c) Verify that the files are local
 
-C:\temp\workshop>cd pnsqc2021
+dir pnsqc2021 
 
-C:\temp\workshop\pnsqc2021>
+cd pnsqc2021
 
-//Should this be a slide?
-Let's talk about git command line 
-  git (no parameters) 
-  git help -g and git help -a  list more help 
+Try some git commands:
+  git (with no parameters) 
+  git help -g
+  git help -a
   git status 
   git config 
-  
-  
+
 
 #3) Create a local file, commit changes and push to your repo 
 
