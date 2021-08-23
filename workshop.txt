@@ -101,6 +101,12 @@ c) Verify that the files are local
 //To set: 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+  
+//While we're talking about configuration, let's create a Personal Access Token (PAT)
+//In the upper-right corner of any github page, click your profile photo, then...
+//Settings | Developer Settings | Personal access tokens 
+//Type in "pnsqc 2021 token" for the description
+//Treat this token like a password
 
 
 #3) Add a new feature to the project
@@ -137,7 +143,9 @@ git commit -m "my first commit"
 //Push the changes to the remote repo
 git push -u origin my-feat1
 
-It will ask you for your credentials, since you're pushing to a remote repo on the hosting service 
-Fatal: AggregateException encountered.
-Username for 'https://github.com': comicsbin
-Password for 'https://comicsbin@github.com':
+//You may need to enter your github username
+//Enter the previously generated token (PAT) in the password field.
+
+#4) Pull request?
+#5) Github pages 
+
