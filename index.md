@@ -49,7 +49,7 @@ You can play with the hello world repo project if you want
 
 # Exercises
 
-## 1) Fork the workshop Repo from my account on Github 
+## Ex. 1) Fork the workshop Repo from my account on Github 
 
 Go here:
 <https://github.com/mxmoss/pnsqc2021>
@@ -58,7 +58,7 @@ Click on the [Fork] button
 
 Explore the fork of the project in your repo 
 
-## 2) Clone the project locally
+## Ex. 2) Clone the project locally
 
 ### a) Open a terminal to use the git command line
 
@@ -132,7 +132,7 @@ You should see something like:
 
 //Treat this token like a password
 
-## 3) Add a new feature to the project
+## Ex. 3) Add a new feature to the project
 //Make a branch so we can work safely
 
     git checkout -b my-feat1
@@ -183,7 +183,7 @@ Save and exit editor
 
 //Enter the previously generated token (PAT) in the password field.
 
-## 4) Pull requests
+## Ex. 4) Pull requests
 
-## 5) Github pages 
+## Ex. 5) Github pages 
 
