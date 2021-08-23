@@ -81,11 +81,13 @@ You should see something like:
 
 c) Verify that the files are local
 
-dir pnsqc2021 
+//View the files in the directory
+  dir pnsqc2021 
 
-cd pnsqc2021
+//Move to the directory with the repo
+  cd pnsqc2021
 
-Try some git commands:
+//Try some git commands:
   git (with no parameters) 
   git help -g
   git help -a
