@@ -186,33 +186,30 @@ Save and exit editor
 ## Ex. 4) Pull requests
 //In this exercise we issue a pull request to an upstream repository
 First, fork the repo
-(/img/GitForkARepo.png)
+![Fork the repo](/img/GitForkARepo.png)
 
 Create a new file called "learnings.txt".  Enter at least one thing you've learned during today's workshop.
-(/img/GitOpenPullRequest.png)
+![Open a pull request](/img/GitOpenPullRequest.png)
 
 Create this file on a new feature branch (see illustration)
-(/img/GitAddingProposingAChange.png)
+![Propose the new file](/img/GitAddingProposingAChange.png)
 
 Click on the project, and notice that it's prompting you to create a pull request.
-(/img/GitAddingProposingAChange2.png)
+![Create a pull request](/img/GitAddingProposingAChange2.png)
 
 On my repo, I get a notification of the pull request.
-!(../img/GitPullRequestNotification.png)
-!(./img/GitRespondToPullRequest.png)
+![See the pull request](./img/GitPullRequestNotification.png)
+![Response to pull request](./img/GitRespondToPullRequest.png)
 Normally, I would test your changes and review them. 
 In this case I will accept the pull request.
-(../img/GitPullRequestMerge.png)
+![Accept the pull request](./img/GitPullRequestMerge.png)
 Since many of you are submitting the same file, I will see a merge conflict.
-(./img/GitConflicts.png)
+![See the merge conflicts](./img/GitConflicts.png)
 I have to manually reconcile any conflicts.
-(/img/GitReconcileConflicts.png)
-
+![Manually reconcile](./img/GitReconcileConflicts.png)
 
 ## Ex. 5) Github pages 
 // Publish your repository on Github Pages
-
-
 
 // Configure the repo to publish the main branch
 
