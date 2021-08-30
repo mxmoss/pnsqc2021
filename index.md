@@ -203,7 +203,7 @@ Save and exit editor
 - [Generating an access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - [How to use access tokens](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations)
 - [using OAuth tokens for github automation](https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens)
-- [Markdown for Github Pages](https://www.markdownguide.org/tools/github-pages ) instead of HTML
+- [Markdown for Github Pages](https://www.markdownguide.org/basic-syntax ) instead of HTML
 - [Collaboration exercise](https://github.com/git-guides/git-add#examples-of-git-add)
 - [Confusing terms in git](https://levelup.gitconnected.com/confusing-terms-in-the-git-terminology-c7115d6febc7)
 - [Getting started with open source](https://dev.to/roligautam/how-to-make-your-first-contribution-to-open-source-a-beginner-s-guide-2cni)
