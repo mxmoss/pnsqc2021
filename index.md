@@ -209,13 +209,16 @@ I have to manually reconcile any conflicts.
 ![Manually reconcile](./img/GitReconcileConflicts.png)
 
 ## Ex. 5) Github pages 
-// Publish your repository on Github Pages
+Publish your repository on Github Pages so it's public to the world
 
-// Configure the repo to publish the main branch
+To configure the repo to publish the main branch, choose 
+- Settings 
+- Click on the "pages" tab on left-hand side of the page 
+- Choose the branch to publish, and click Save 
 
-// Optionally choose a markdown preprocessor
-
-// View the page
+![Publish on GithubPages](./img/GithubPublishPages.png)
+Alternatively, you may wish to use a Jekyll theme to enhance the markdown page. 
+In this case you will need to choose a markdown pre-processor.
 
 
 ## Links 
