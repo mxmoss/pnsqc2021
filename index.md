@@ -197,31 +197,13 @@ Save and exit editor
 
 
 ## Links 
-
-Links:
-GitHub Cheat Sheet
-https://github.com/tiimgreen/github-cheat-sheet
-
-Awesome Lists 
-https://github.com/sindresorhus/awesome
-
-Generating an access token 
-https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-How to use access tokens
-https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
-
-using OAutho tokens for github automation
-https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens
-
-GitHub Pages use Markdown instead of HTML. Reference for markdown tags:
-https://www.markdownguide.org/tools/github-pages/
-
-collaboration exercise
-https://github.com/git-guides/git-add#examples-of-git-add
-
-confusing terms 
-https://levelup.gitconnected.com/confusing-terms-in-the-git-terminology-c7115d6febc7
-
-Getting started with open source 
-https://dev.to/roligautam/how-to-make-your-first-contribution-to-open-source-a-beginner-s-guide-2cni
+- [GitHub](http://github.com)
+- [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
+- [Awesome Lists] (https://github.com/sindresorhus/awesome)
+- [Generating an access token] (https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [How to use access tokens](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations)
+- [using OAuth tokens for github automation](https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens)
+- [Markdown for Github Pages](https://www.markdownguide.org/tools/github-pages ) instead of HTML
+- [Collaboration exercise] (https://github.com/git-guides/git-add#examples-of-git-add)
+- [Confusing terms in git](https://levelup.gitconnected.com/confusing-terms-in-the-git-terminology-c7115d6febc7)
+- [Getting started with open source](https://dev.to/roligautam/how-to-make-your-first-contribution-to-open-source-a-beginner-s-guide-2cni)
