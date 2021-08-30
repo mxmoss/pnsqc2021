@@ -198,13 +198,13 @@ Click on the project, and notice that it's prompting you to create a pull reques
 (/img/GitAddingProposingAChange2.png)
 
 On my repo, I get a notification of the pull request.
-!(img/GitPullRequestNotification.png)
-!(/img/GitRespondToPullRequest.png)
+!(../img/GitPullRequestNotification.png)
+!(./img/GitRespondToPullRequest.png)
 Normally, I would test your changes and review them. 
 In this case I will accept the pull request.
-(/img/GitPullRequestMerge.png)
+(../img/GitPullRequestMerge.png)
 Since many of you are submitting the same file, I will see a merge conflict.
-(/img/GitConflicts.png)
+(./img/GitConflicts.png)
 I have to manually reconcile any conflicts.
 (/img/GitReconcileConflicts.png)
 
