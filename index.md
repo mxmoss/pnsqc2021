@@ -184,6 +184,15 @@ Save and exit editor
 //Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
+//Issue a pull request to an upstream repository
 
 ## Ex. 5) Github pages 
+// Publish your repository on Github Pages
+
+// Configure the repo to publish the main branch
+
+// Optionally choose a markdown preprocessor
+
+// View the page
+
 
