@@ -108,6 +108,7 @@ You should see something like:
     git help -g
     git help -a
     git status 
+    git show head
     git config 
 
 //Set configuration if necessary. Do this only if user.email or user.name are empty
