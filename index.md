@@ -125,13 +125,16 @@ You should see something like:
   
 //While we're talking about configuration, let's create a Personal Access Token (PAT)
 
-//In the upper-right corner of any github page, click your profile photo, then...
+In the upper-right corner of any github page, make sure you're signed in to github. Then click your profile photo. 
+From the menu choose:
 
-//Settings | Developer Settings | Personal access tokens 
+Settings | Developer Settings | Personal access tokens 
 
-//Type in "pnsqc 2021 token" for the description
-
-//Treat this token like a password
+Type in "pnsqc 2021 token" for the description
+	
+Set the checkbox for "repo"
+	
+Treat this token like a password.
 
 ## Ex. 3) Add a new feature to the project
 //Make a branch so we can work safely
