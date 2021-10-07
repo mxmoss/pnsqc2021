@@ -94,15 +94,15 @@ You should see something like:
 
 ### c) Verify that the files are local
 
-//View the files in the directory
+View the files in the directory
 
     dir pnsqc2021 
 
-//Move to the directory with the repo
+Move to the directory with the repo
 
     cd pnsqc2021
 
-//Try some git commands:
+Try some git commands:
 
     git (with no parameters) 
     git help -g
@@ -111,19 +111,19 @@ You should see something like:
     git show head
     git config 
 
-//Set configuration if necessary. Do this only if user.email or user.name are empty
+Set configuration if necessary. Do this only if user.email or user.name are empty
 
-//To check:
+To check:
 
     git config --global user.email
     git config --global user.name
 	
-//To set: 
+To set: 
 
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
   
-//While we're talking about configuration, let's create a Personal Access Token (PAT)
+While we're talking about configuration, let's create a Personal Access Token (PAT)
 
 In the upper-right corner of any github page, make sure you're signed in to github. Then click your profile photo. 
 From the menu choose:
@@ -210,7 +210,7 @@ You may need to enter your github username
 Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
-//In this exercise we issue a pull request to an upstream repository
+In this exercise we issue a pull request to an upstream repository
 First, fork the repo
 ![Fork the repo](/img/GitForkARepo.png)
 
