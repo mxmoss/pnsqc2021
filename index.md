@@ -211,17 +211,14 @@ You may need to enter your github username
 Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
-In this exercise we issue a pull request to an upstream repository
-First, fork the repo
-![Fork the repo](/img/GitForkARepo.png)
+In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository
 
-Create a new file called "learnings.txt".  Enter at least one thing you've learned during today's workshop.
-![Open a pull request](/img/GitOpenPullRequest.png)
-
-Create this file on a new feature branch (see illustration)
-![Propose the new file](/img/GitAddingProposingAChange.png)
-
-Click on the project, and notice that it's prompting you to create a pull request.
+### a) Handle the pull request created in exercise 3.
+	
+### b) Create a pull request for the upstream repo
+This is a request from you to me.  You are asking me to integrate the changes you have done in your repo, into my own repo.
+	
+Open your pnsqc2021 repository in github. Click on the project, and notice that it's prompting you to create a pull request.
 ![Create a pull request](/img/GitAddingProposingAChange2.png)
 
 On my repo, I get a notification of the pull request.
