@@ -164,6 +164,7 @@ Let's delete the feature-1 branch
 	
 Now, let's make a branch for you to work on
 
+    git pull
     git checkout -b myfeat1
 
 ### b) Make changes and commit them
@@ -211,10 +212,14 @@ You may need to enter your github username
 Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
-In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository
+In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository.
 
 ### a) Handle the pull request created in exercise 3.
-In github, see the notification "Compare & pull request"
+A good git practice is to make all changes to feature branches, then merge those changes into the main stream.
+
+Github makes this easy by default. In exercise 3 we created a feature where we updated the "learnings.txt' file and pushed it to the feature branch.
+	
+Now in github, see the notification to "Compare & pull request" into the main branch. 
 Click the button to compare. You will see a message whether the changes can be merged automatically.
 This would be the point to integrate either manual or automatic code reviews.
 Enter a reason for OK'ing the change and merge the pull request.
