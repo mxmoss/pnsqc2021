@@ -164,22 +164,22 @@ Let's delete the feature-1 branch
 	
 Now, let's make a branch for you to work on
 
-    git checkout -b my-feat1
+    git checkout -b myfeat1
 
-Create the file "learnings.txt". Depending on your operating system there are different ways to edit a text file. Here are a couple examples:
+Create the file "myfeature.txt". Depending on your operating system there are different ways to edit a text file. Here are a couple examples:
 ### Windows: 
 
-    notepad learnings.txt  
+    notepad myfeature.txt  
 ### Linux: 
 
-    vim learnings.txt
+    vim myfeature.txt
 or
 	
-    nano learnings.txt 
+    nano myfeature.txt 
 ### MacOS: 
 
-    vim learnings.txt 
-Add the following text, and then enter your own answers to the questions.
+    vim myfeature.txt 
+Type in some text.  For example, you can add your name and answer these questions:
 - What did I learn from the workshop?
 - Did I have any un-met expectations?
 
@@ -191,7 +191,7 @@ Verify that you have created the new file
 
 Add the untracked file to the repo
 
-    git add learnings.txt 
+    git add myfeature.txt 
 	
 Alternatively, add _all_untracked files 
 
@@ -199,7 +199,7 @@ Alternatively, add _all_untracked files
 
 Commit the changes to the local repo 
 
-    git commit -m "initial commit for learnings.txt. my first commit"
+    git commit -m "initial commit for myfeature.txt. my first commit"
 
 Push the changes to the remote repo
 
