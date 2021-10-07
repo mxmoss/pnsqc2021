@@ -138,7 +138,7 @@ Treat this token like a password.
 
 ## Ex. 3) Add a new feature to the project
 	
-Let's practice branching first
+### a) Practice Branching
 	
 From the git command line, find out your status
 
@@ -166,6 +166,7 @@ Now, let's make a branch for you to work on
 
     git checkout -b myfeat1
 
+### b) Make changes and commit them
 Create the file "myfeature.txt". Depending on your operating system there are different ways to edit a text file. Here are a couple examples:
 ### Windows: 
 
