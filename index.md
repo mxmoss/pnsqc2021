@@ -214,6 +214,10 @@ Enter the previously generated token (PAT) in the password field.
 In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository
 
 ### a) Handle the pull request created in exercise 3.
+In github, see the notification "Compare & pull request"
+Click the button to compare. You will see a message whether the changes can be merged automatically.
+This would be the point to integrate either manual or automatic code reviews.
+Enter a reason for OK'ing the change and merge the pull request.
 	
 ### b) Create a pull request for the upstream repo
 This is a request from you to me.  You are asking me to integrate the changes you have done in your repo, into my own repo.
