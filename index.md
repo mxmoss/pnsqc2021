@@ -204,7 +204,7 @@ Commit the changes to the local repo
 
 Push the changes to the remote repo
 
-    git push -u origin my-feat1
+    git push -u origin myfeat1
 
 You may need to enter your github username
 
