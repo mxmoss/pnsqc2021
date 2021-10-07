@@ -137,55 +137,77 @@ Set the checkbox for "repo"
 Treat this token like a password.
 
 ## Ex. 3) Add a new feature to the project
-//Make a branch so we can work safely
+	
+Let's practice branching first
+	
+From the git command line, find out your status
+
+    git status
+
+You may also use the branch command to show which branch you are in
+	
+    git branch 
+	
+Create a branch called "feature-1" and switch to that branch
+	
+    git checkout -b feature-1
+	
+Switch between branches
+	
+    git checkout main
+    git checkout feature-1
+
+Let's delete the feature-1 branch
+
+    git checkout main
+    git branch -D feature-1   (deletes the branch new-feature)
+	
+Now, let's make a branch for you to work on
 
     git checkout -b my-feat1
 
-//Create the file learnings.txt 
-
+Create the file "learnings.txt". Depending on your operating system there are different ways to edit a text file. Here are a couple examples:
 ### Windows: 
 
-    notepad learnings.md 
-  
+    notepad learnings.md  
 ### Linux: 
 
     vim learnings.md
+or
 	
-//Linux: nano learnings.md 
-
+    nano learnings.md 
 ### MacOS: 
 
     vim learnings.md 
-
-Add the following text:
+Add the following text, and then enter your own answers to the questions.
 - What did I learn from the workshop?
 - Did I have any un-met expectations?
 
 Save and exit editor
 
-//Verify that you have created the new file 
+Verify that you have created the new file 
 
     git status
 
-//Add the untracked file to the repo
+Add the untracked file to the repo
 
     git add index.md 
 	
-//alternatively, add _all_untracked files 
+Alternatively, add _all_untracked files 
 
     git add .
 
-//Commit the changes to the local repo 
+Commit the changes to the local repo 
 
-    git commit -m "my first commit"
+    git commit -m "initial commit for learnings.md. my first commit"
 
-//Push the changes to the remote repo
+Push the changes to the remote repo
 
     git push -u origin my-feat1
 
-//You may need to enter your github username
+You may need to enter your github username
 
-//Enter the previously generated token (PAT) in the password field.
+Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
 //In this exercise we issue a pull request to an upstream repository
