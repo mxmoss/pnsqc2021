@@ -221,20 +221,27 @@ Enter a reason for OK'ing the change and merge the pull request.
 	
 ### b) Create a pull request for the upstream repo
 This is a request from you to me.  You are asking me to integrate the changes you have done in your repo, into my own repo.
-	
-Open your pnsqc2021 repository in github. Click on the project, and notice that it's prompting you to create a pull request.
-![Create a pull request](/img/GitAddingProposingAChange2.png)
+You have already forked my repo https://github.com/mxmoss/pnsqc2021 and in your fork it shows https://github.com/<yourusername>/pnsqc2021 (see exercise 3).
+In your repo, click on the [Contribute] to initiate a pull request with me.
+![Start a pull request](/img/PullRequestAcrossReposInitiate.png)
 
-On my repo, I get a notification of the pull request.
-![See the pull request](./img/GitPullRequestNotification.png)
-![Response to pull request](./img/GitRespondToPullRequest.png)
-Normally, I would test your changes and review them. 
-In this case I will accept the pull request.
-![Accept the pull request](./img/GitPullRequestMerge.png)
-Since many of you are submitting the same file, I will see a merge conflict.
-![See the merge conflicts](./img/GitConflicts.png)
-I have to manually reconcile any conflicts.
-![Manually reconcile](./img/GitReconcileConflicts.png)
+Github will show the changes across the two repositories. Click on [Create pull request] to notify me that you have a change.
+![Create a pull request](/img/PullRequestAcrossReposCreate.png)
+	
+Git a description of why you're creating the pull request. This includes the title - think of it as a headline to a newspaper article.  Then provide the concise reason why.
+![Create a pull request](/img/PullRequestAcrossReposCommunicateWhy.png)
+
+Github will check for merge conflicts and then send the pull request to the owner of the upstream repo.
+![Create a pull request](/img/PullRequestAcrossReposMergeConflictsAndGo.png)
+	
+Upstream in my repository, I will see pull requests.
+![Create a pull request](/img/PullRequestAcrossReposUpstreamView.png)
+	
+At this point, the owner of the upstream repo can respond appropriately. 
+Maybe they will close the pull request with a comment, which means it won't be merged.
+Or, perhaps they will see the benefit of your change and just merge it.
+Most likely, however, the owner will have further questions and this is a chance for a conversation about the best path forward.
+![Create a pull request](/img/PullRequestAcrossReposUpstreamResponse.png)
 
 ## Ex. 5) Github pages 
 Publish your repository on Github Pages so it's public to the world
