@@ -169,16 +169,16 @@ Now, let's make a branch for you to work on
 Create the file "learnings.txt". Depending on your operating system there are different ways to edit a text file. Here are a couple examples:
 ### Windows: 
 
-    notepad learnings.md  
+    notepad learnings.txt  
 ### Linux: 
 
-    vim learnings.md
+    vim learnings.txt
 or
 	
-    nano learnings.md 
+    nano learnings.txt 
 ### MacOS: 
 
-    vim learnings.md 
+    vim learnings.txt 
 Add the following text, and then enter your own answers to the questions.
 - What did I learn from the workshop?
 - Did I have any un-met expectations?
@@ -191,7 +191,7 @@ Verify that you have created the new file
 
 Add the untracked file to the repo
 
-    git add index.md 
+    git add learnings.txt 
 	
 Alternatively, add _all_untracked files 
 
@@ -199,7 +199,7 @@ Alternatively, add _all_untracked files
 
 Commit the changes to the local repo 
 
-    git commit -m "initial commit for learnings.md. my first commit"
+    git commit -m "initial commit for learnings.txt. my first commit"
 
 Push the changes to the remote repo
 
