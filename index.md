@@ -164,6 +164,7 @@ Let's delete the feature-1 branch
 	
 Now, let's make a branch for you to work on
 
+    git pull
     git checkout -b myfeat1
 
 ### b) Make changes and commit them
@@ -211,13 +212,33 @@ You may need to enter your github username
 Enter the previously generated token (PAT) in the password field.
 
 ## Ex. 4) Pull requests
-In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository
+In this exercise we handle a pull request to our repository, then issue a pull request to an upstream repository.
 
 ### a) Handle the pull request created in exercise 3.
-In github, see the notification "Compare & pull request"
-Click the button to compare. You will see a message whether the changes can be merged automatically.
-This would be the point to integrate either manual or automatic code reviews.
+A good git practice is to make changes to feature branches, then merge those changes into the main stream.
+
+Github makes this easy by default. In exercise 3 we created a feature where we updated the "learnings.txt' file and pushed it to the feature branch.
+	
+Now in github, let's create a pull request to merge this branch into the main.
+	
+See the notification to [Compare & pull request] into the main branch. Click on the button.
+![Create a pull request](/img/LocalPullCreate.png)
+	
+Enter a description of why you're creating the pull request. You have been working on a feature, and perhaps this has taken many iterations.  You will want to include the headline, the concise description, and any tracking info such as ID or story numbers.
+![Create a pull request](/img/LocalPullCommunicate.png)
+	
+In our repo we have the permission to merge features to main. This may be difference in your work environment.
+	
+When we merge the feature branch we see a message about continuous integration checks and whether the changes can be merged automatically.
+Merging to main is an obvious point for quality checks on the changes, whether automatic or manual.
 Enter a reason for OK'ing the change and merge the pull request.
+![Create a pull request](/img/LocalPullMergeConflictsAndGo.png)
+	
+At this point, confirm the merge and you may clean up the feature branch by deleting it.
+![Create a pull request](/img/LocalPullView.png)
+![Create a pull request](/img/LocalPullFinishAndCleanup.png)
+	
+You have completed your first feature merge into your repository.
 	
 ### b) Create a pull request for the upstream repo
 This is a request from you to me.  You are asking me to integrate the changes you have done in your repo, into my own repo.
