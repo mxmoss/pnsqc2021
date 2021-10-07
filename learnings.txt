@@ -1,4 +1,2 @@
 I learned how to issue pull requests
 I learned something about GitHub
-something more
-somethign more 22
