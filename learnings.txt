@@ -1,3 +1,4 @@
 I learned how to issue pull requests
 I learned something about GitHub
+Learned how to create and delete branches and more ;-)
 Need to fix learnings.txt vs myfeature.txt
